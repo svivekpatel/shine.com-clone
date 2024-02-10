@@ -2,21 +2,6 @@ function navbar(){
     return `    <div id="vnavbar">
 
     <div id="mainnav">
-
-      <div id="vtop">
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/2420/2420893.png" alt="">
-            <p>Download App</p>
-        </div>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="">
-            <p>For Employers</p>
-        </div>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/3410/3410021.png" alt="">
-            <p>Help</p>
-        </div>
-     </div>
      <div id="vmain">
      <div id="vmain-1">
         <div>
@@ -86,3 +71,18 @@ function navbar(){
 }
 
 export default navbar;
+
+   //   <div id="vtop">
+    //     <div>
+    //         <img src="https://cdn-icons-png.flaticon.com/512/2420/2420893.png" alt="">
+    //         <p>Download App</p>
+    //     </div>
+    //     <div>
+    //         <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="">
+    //         <p>For Employers</p>
+    //     </div>
+    //     <div>
+    //         <img src="https://cdn-icons-png.flaticon.com/512/3410/3410021.png" alt="">
+    //         <p>Help</p>
+    //     </div>
+    //  </div>

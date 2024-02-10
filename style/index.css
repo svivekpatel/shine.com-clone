@@ -1,4 +1,10 @@
 
+
+.homepagemaindiv{
+    margin-top: 165px;
+}
+
+
 .container{
     display: flex;
     flex-flow: wrap;
@@ -12,6 +18,77 @@
     display: grid;
  
 }
+
+.coolplacesbox{
+
+}
+
+.coolplacesbox h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.coolplacesinnerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.coolplacesinnerbox div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: border 0.3s ease;
+    border: 1px solid transparent;
+}
+.coolplacesinnerbox div:hover{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+}
+.coolplacesinnerbox div img:nth-child(2){
+    padding: 20px;
+    margin: auto;
+}
+
+.topcompaniesbox{
+    background-color: #F4F2FF;
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.topcompaniesbox h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px; 
+}
+.topcompaniesinnerbox{
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcompaniesinnerbox div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    transition: border 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.topcompaniesinnerbox div:hover{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+}
+
+
 #slideshow{
     padding-top: 200px;
 }
@@ -64,8 +141,8 @@
     font-family:"PT Sans", sans-serif;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .homeSlider{
     padding-left: 5%;
@@ -75,6 +152,12 @@
     gap: 20px;
     
 }
+#remotejobsbox{
+    background-color: #F4F2FF;
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
 .jobList{
     margin: auto;
     padding: 2% 1%;
@@ -83,6 +166,10 @@
     height: fit-content;
     gap: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid transparent;
+    transition: border 0.3s ease;
+    background-color: #fff;
+
 }
 .jobList:hover{
     border:1px solid blue;
@@ -109,7 +196,7 @@
     display: flex;
     justify-content: flex-end;
 }
-.searchCreate{
+/* .searchCreate{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 50px;
@@ -134,46 +221,43 @@
 }
 .searchJob>img{
     width: 15%;
-}
+} */
 .employer{
-    padding: 4%;
+    padding: 8%;
     background-color: RGB(242, 243, 248);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
     /* column-gap: 50px; */
-    font-size:30px;
+    margin-top: 50px;
 }
-.employer>h2{
-    margin-left: 150px;
-    margin-right: 40px;
+.employer div{
+    font-size:20px;
+    color: #38404c;
 }
 
-.btn1{
-    font-size:20px;
+
+.btn1,.btn2{
+    font-size:2px;
     background-color: #fba504;
     color: #fff;
     box-shadow: 0 4px 10px 0 rgb(251 165 4 / 15%);
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    height: 4rem;
-    font-weight: 700;
-    margin-top: 30px;
-    align-items: center;
     border: 1px solid transparent;
     border-radius: 10px;
+    margin-left: 20px;
 }
 .btn2{
-    font-size:20px;
     background-color: #8652ff;
-    color: #fff;
-    box-shadow: 0 4px 10px 0 rgb(251 165 4 / 15%);
-    padding: 1rem 4rem;
-    font-size: 1.2rem;
-    height: 4rem;
-    font-weight: 700;
-    margin-top: 30px;
-    align-items: center;
-    border: 1px solid transparent;
-    border-radius: 10px;
+}
+.btn1:hover,.btn2:hover{
+    cursor: pointer;
+    border: 1px solid rgb(161, 153, 153);
+}
+#aspirebox {
+    margin-top: 60px;
 }
 .seniorRoles{
     display: grid;
@@ -181,21 +265,29 @@
     gap: 30px 50px;
     padding-left: 15%;
     padding-right: 15%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+
 }
 .roles{
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     align-items: center;
     gap: 20px;
     padding: 4%;
     color: #38404c;
+    border: 1px solid transparent;
+}
+.roles:hover{
+    cursor: pointer;
+    border: 1px solid blue;
 }
 #btn-view{
     font-weight:700;
     color:rgb(116, 57, 255);
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
 }
 #btn-view:hover{
     cursor: pointer;
@@ -232,14 +324,22 @@
     width: 10%;
 }
 .explore{
-    padding:6% 0 6% 5%;
+    padding:6% 0 4% 6%;
     background-color: RGB(242, 243, 248);
     display: flex;
     justify-content: space-around;
     gap: 70px;
-    font-size:30px;
 }
-.blog{
+.dreamcareerbox{
+    font-size:20px;
+    color: #38404c;
+}
+.dreamcareerbox h2{
+    margin-bottom: 50px;
+}
+
+
+/* .blog{
     background-color: #f0f0f0;
 }
 .blog-div{
@@ -261,5 +361,5 @@
 }
 #blog-view:hover{
     cursor: pointer;
-}
+} */
 
