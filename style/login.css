@@ -215,11 +215,10 @@
 }
 
 .signinbtns div{
-    padding: 20px;
+    padding: 15px 30px;
     border: 1px solid transparent;
 }
 .signinbtns div:hover{
-    padding: 20px;
     border: 1px solid #8652FF;
     cursor: pointer;
 }

@@ -4,13 +4,22 @@
     padding: 0;
 }
 
+
+#signupnav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+
 #vtop{
     display: flex;
     justify-content: end;
     align-items: center;
      gap: 40px;
      background-color: #F2F3F8;
-     padding: 0% 6%;
+     padding: 12px;
      font-weight: bolder;
      color: #4c5157;
      font-size: 12px;
@@ -33,6 +42,7 @@ h1{
 #vimg{
     padding: 8px 6%;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: #fff;
 }
 #vimg img{
     width: 6%;
@@ -53,8 +63,9 @@ h1{
     border: 1px solid #8652FF;
     width: 40%;
     margin: auto;
-    padding: 0px 30px;
+    padding: 12px 24px;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 #vres>div>img{
     width: 20px;
@@ -71,6 +82,7 @@ h1{
 }
 .vsp{
     font-size: 12px;
+    margin-bottom: 16px;
 }
 #vsp-2{
     display: flex;
@@ -119,16 +131,24 @@ h1{
     border: 1px solid gray;
 }
 
+#resumebtnbox{
+    padding: 12px 24px;
+    margin-bottom: 8px;
+
+}
 
 
 #vsign{
     display: flex;
     padding: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 #vsign-1{
     padding: 30px;
     width: 70%;
+}
+#vsign-1 h1{
+    margin-bottom: 20px;
 }
 #vsign-2{
     width: 30%;
@@ -149,10 +169,10 @@ h1{
 }
 #vsign-2>div:last-child>div{
     display: flex;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 4px;
     margin-bottom: 10px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     font-size: 13px;
     font-weight: bold; 
     justify-content: center;
@@ -165,7 +185,9 @@ h1{
 #vsign-2>div>div:last-child img{
     width: 30px;
 }
-
+#registerbtn:hover{
+    cursor: pointer;
+}
 .vsp+button{
     display: flex;
     background: transparent;
@@ -204,4 +226,12 @@ h1{
     margin-top: 30px;
     border: none;
     border-radius: 4px;
+}
+.signupbtns div{
+    padding: 15px 30px;
+    border: 1px solid transparent;
+}
+.signupbtns div:hover{
+    border: 1px solid #8652FF;
+    cursor: pointer;
 }
