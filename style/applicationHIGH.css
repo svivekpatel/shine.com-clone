@@ -1,7 +1,8 @@
 #applicationHighlighterHeader{
+    margin-top: 165px;
+    padding: 50px 0px 50px 0px;
     /* border: 1px solid red; */
     width: 100%;
-    padding-top: 200px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     height: auto;
@@ -9,20 +10,21 @@
     /* padding: 50px; */
 }
 .paraAppHighDiv1{
-    margin:15px 50px 0px 50px;
+    margin:15px 80px 0px 80px;
 }
 .paraAppHighDiv2{
-    margin:15px 50px 20px 50px;
+    margin:15px 80px 20px 80px;
 }
 .applicationHighDiv1 h1{
-    margin: 50px 50px 5px 50px;
+    margin: 50px 80px 5px 80px;
 }
 .applicationHighDiv2{
     margin: auto;
 }
 .whyNeedProfileBooster1{
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .whyTable{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -55,10 +57,13 @@
     height: auto;
     width: 75%;
     margin: auto;
-    padding: 20px;
+    padding: 50px 20px 50px 20px;
     margin-top: 50px;
     margin-bottom: 50px;
     /* display: flex; */
+}
+#howItWorks h1{
+        margin-left: 30px;
 }
 .howItWorksDIV{
     /* border: 1px solid red; */
@@ -66,10 +71,13 @@
     justify-content: left;
     align-items: center;
     gap: 20px;
+    margin-left: 30px;
+    width: 80%;
 }
 .howItWorksMainDIV{
     display: grid;
     grid-template-columns: repeat(4, auto);
+
 }
 .maintextHIW{
     font-weight: bold;
@@ -83,12 +91,13 @@
 #reviewsPB{
     /* border: 1px solid black; */
     height: auto;
-    width: 80%;
+    width: 78%;
     margin: auto;
     margin-bottom: 50px;
 }
 #reviewsPB h1{
 padding-left: 20px;
+margin-bottom: 30px;
 }
 .reviewsDIV{
     display: grid;
@@ -97,16 +106,18 @@ padding-left: 20px;
 }
 .reviewsInnerDIV{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding: 10px;
+    padding: 20px;
 }
 .reviewTitle{
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .reviewDate{
     font-weight: 100;
 }
 .reviewPara{
     font-weight: lighter;
+    margin-bottom: 12px;
 }
 .reviewPerson{
     font-weight: bold;
